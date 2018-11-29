@@ -1,9 +1,11 @@
 # JIRA Blocker Grapher
 Tool to graph JIRA story dependencies by mapping blocker links. Other plugins exist that do this in an easier manner, but this is the only one that's free! 😉
 
+[Download the latest release here](https://github.com/fadookie/jira-grapher/releases/latest).
+
 ## Usage
-1. From a JIRA search, select `Export` -> `Export XML`
-![Export XML Menu](doc/xml-export.png)
+1. From a JIRA search, select `Export` -> `Export XML`<br/>
+![Export XML Menu](doc/xml-export.png)<br/>
 1. Command Line: `./block-graph.py /PATH/TO/Jira.xml`
 
 	macOS GUI: Drop XML file onto `JIRA Blocker Grapher.app`
